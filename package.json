@@ -1,0 +1,22 @@
+{
+  "name": "cntr",
+  "version": "1.0.0",
+  "description": "An ultra-lightweight CSS framework(?) that won't do more than centering things.",
+  "main": "cntr.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narze/cntr.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "narze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narze/cntr/issues"
+  },
+  "homepage": "https://github.com/narze/cntr#readme"
+}

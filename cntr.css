@@ -1,0 +1,28 @@
+.cx, .ct {
+  display: flex;
+  justify-content: center;
+}
+
+.cy, .cl {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.cb {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cr {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cc, .cxy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

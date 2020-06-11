@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cntr - An ultra-lightweight CSS framework for centering things.</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./cntr.css">
+
+  <style>
+    * {
+      font-family: sans-serif;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 300%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+
+    .bound {
+      border: 2px dashed #abacad;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .border {
+      border: 1px solid #c1c2c3;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .example-box {
+      height: 100px;
+      width: 150px;
+      font-size: 150%;
+    }
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .grid-4 {
+      flex-basis: 21%;
+      margin: 16px 8px;
+    }
+
+    .col {
+      flex-direction: column;
+    }
+
+    .small {
+      font-size: 80%;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body class="cc">
+  <div class="bound">
+    <h1 class="cc border">Cntr.css</h1>
+
+    <p class="cc">
+      An ultra-lightweight CSS framework(?) that won't do more than centering things.
+    </p>
+
+    <h2 class="cc border">Features</h2>
+
+    <p class="cc">
+      Put class <code>"cc"</code> into the container.
+      Its child element will be centered.
+    </p>
+
+    <div class="cc col">
+      <div class="cc example-box border">
+        😀
+      </div>
+      <div class="small"><code>&lt;div class="cc"&gt;</code></div>
+      or
+      <div class="small"><code>&lt;div class="cxy"&gt;</code></div>
+    </div>
+
+    <p class="cx">
+      We also provide some more classes:
+    </p>
+
+    <div class="flex">
+      <div class="grid-4">
+        <div class="cc col">
+          <div class="cx example-box border">
+            ⬆️
+          </div>
+          <div class="small"><code>&lt;div class="cx"&gt;</code></div>
+          or
+          <div class="small"><code>&lt;div class="ct"&gt;</code></div>
+        </div>
+
+      </div>
+      <div class="grid-4">
+        <div class="cc col">
+          <div class="cy example-box border">
+            ⬅️
+          </div>
+          <div class="small"><code>&lt;div class="cy"&gt;</code></div>
+          or
+          <div class="small"><code>&lt;div class="cl"&gt;</code></div>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="cc col">
+          <div class="cr example-box border">
+            ➡️
+          </div>
+          <div class="small"><code>&lt;div class="cr"&gt;</code></div>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="cc col">
+          <div class="cb example-box border">
+            ⬇️
+          </div>
+          <div class="small"><code>&lt;div class="cb"&gt;</code></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
