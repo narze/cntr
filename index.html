@@ -15,8 +15,8 @@
     }
 
     body {
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      min-height: 100vh;
     }
 
     h1 {
@@ -25,10 +25,15 @@
       margin-bottom: 16px;
     }
 
+    h2 {
+      margin: 0;
+    }
+
     .bound {
       border: 2px dashed #abacad;
       border-radius: 12px;
       padding: 24px;
+      margin: 20px;
     }
 
     .border {
@@ -65,14 +70,14 @@
   </style>
 </head>
 <body class="cc">
-  <div class="bound">
+  <div class="cc col bound">
     <h1 class="cc border">Cntr.css</h1>
 
     <p class="cc">
       An ultra-lightweight CSS framework(?) that won't do more than centering things.
     </p>
 
-    <h2 class="cc border">Features</h2>
+    <h2 class="cc">Features</h2>
 
     <p class="cc">
       Put class <code>"cc"</code> into the container.
